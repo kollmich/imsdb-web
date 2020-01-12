@@ -1,0 +1,185 @@
+title,year,rating,actors,director,vulgarities,sentiment,subjectivity
+The Broadway Melody,1929,35,"Anita Page, Bessie Love, Charles King, Jed Prouty",Harry Beaumont,0,0.0,0.0
+The Greatest Show on Earth,1952,45,"Betty Hutton, Cornel Wilde, Charlton Heston, James Stewart",Cecil B. DeMille,0,0.0,0.0
+Cimarron,1931,55,"Richard Dix, Irene Dunne, Estelle Taylor, Nance O'Neil",Wesley Ruggles,0,0.0,0.0
+Cavalcade,1933,58,"Diana Wynyard, Clive Brook, Ursula Jeans, Herbert Mundin",Frank Lloyd,0,0.0,0.0
+Out of Africa,1985,60,"Meryl Streep, Robert Redford, Klaus Maria Brandauer, Michael Kitchen",Sydney Pollack,0,0.096972460858119,0.505652175128919
+The Great Ziegfeld,1936,62,"William Powell, Luise Rainer, Myrna Loy, Frank Morgan",Robert Z. Leonard,0,0.0,0.0
+Around the World in 80 Days,1956,71,"David Niven, Cantinflas, Shirley MacLaine, Robert Newton",Michael Anderson,0,0.139403202729473,0.5284579374250981
+Forrest Gump,1994,72,"Tom Hanks, Robin Wright, Gary Sinise, Mykelti Williamson",Robert Zemeckis,18,0.120823822147351,0.5205374418609711
+Crash,2004,74,"Sandra Bullock, Don Cheadle, Matt Dillon, Jennifer Esposito",Paul Haggis,84,0.024460412845158003,0.5108055641157341
+A Beautiful Mind,2001,74,"Russell Crowe, Jennifer Connelly, Ed Harris, Christopher Plummer",Ron Howard,2,0.10357754045770501,0.51638633233158
+Braveheart,1995,77,"Mel Gibson, Sophie Marceau, Patrick McGoohan, Catherine McCormack",Mel Gibson,6,0.10415288754738201,0.49062571984590303
+Gladiator,2000,76,"Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed",Ridley Scott,2,0.162354884031566,0.523298929969603
+Going My Way,1944,80,"Bing Crosby, Barry Fitzgerald, Rise Stevens, Jean Heather",Leo McCarey,0,0.0,0.0
+Gigi,1958,79,"Leslie Caron, Louis Jourdan, Maurice Chevalier, Hermione Gingold",Vincente Minnelli,0,0.0,0.0
+Gentleman's Agreement,1947,78,"Gregory Peck, Dorothy McGuire, John Garfield, Celeste Holm",Elia Kazan,0,0.0,0.0
+The Life of Emile Zola,1937,78,"Paul Muni, Joseph Schildkraut, Gale Sondergaard, Gloria Holden",Irving Rapper,0,0.0,0.0
+Oliver!,1968,82,"Ron Moody, Oliver Reed, Mark Lester, Shani Wallis",Carol Reed,0,0.0,0.0
+Driving Miss Daisy,1989,81,"Jessica Tandy, Morgan Freeman, Dan Aykroyd, Patti LuPone",Bruce Beresford,1,0.12345404253655401,0.5351610684061421
+A Man for All Seasons,1966,82,"Paul Scofield, Wendy Hiller, Leo McKern, Robert Shaw",Fred Zinnemann,2,0.10932654466745301,0.555817156602729
+Dances With Wolves,1990,82,"Kevin Costner, Mary McDonnell, Graham Greene (II), Rodney A. Grant",Kevin Costner,0,0.0,0.0
+Terms of Endearment,1983,84,"Shirley MacLaine, Debra Winger, Jack Nicholson, Jeff Daniels",James L. Brooks,5,0.104162174296962,0.553164150782892
+Tom Jones,1963,85,"Albert Finney, Susannah York, Hugh Griffith, Edith Evans",Tony Richardson,10,0.14432824002375702,0.5603982793781861
+Gandhi,1982,84,"Ben Kingsley, Candice Bergen, Trevor Howard, John Mills",Richard Attenborough,0,0.0,0.0
+Chariots of Fire,1981,84,"Ben Cross, Ian Charleson, Nigel Havers, Ian Holm",Hugh Hudson,0,0.136163539664576,0.507709175333656
+The English Patient,1996,85,"Ralph Fiennes, Juliette Binoche, Willem Dafoe, Kristin Scott Thomas",Anthony Minghella,7,0.067072147577765,0.501034187930255
+Ben-Hur,1959,86,"Charlton Heston, Jack Hawkins, Stephen Boyd, Haya Harareet",William Wyler,1,0.08312623548516901,0.48293066129273005
+Grand Hotel,1932,86,"Greta Garbo, John Barrymore, Joan Crawford, Wallace Beery",Edmund Goulding,0,0.114604099538403,0.565999278499277
+Green Book,2018,78,"Viggo Mortensen, Mahershala Ali, Linda Cardellini, Don Stark",Peter Farrelly,17,0.146575014418616,0.5067687723019471
+Kramer vs. Kramer,1979,89,"Dustin Hoffman, Meryl Streep, Justin Henry, Jane Alexander",Robert Benton,4,0.09504038916410001,0.510961059272914
+Ordinary People,1980,89,"Mary Tyler Moore, Timothy Hutton, Donald Sutherland, Judd Hirsch",Robert Redford,0,0.0,0.0
+The Sound of Music,1965,84,"Julie Andrews, Christopher Plummer, Eleanor Parker, Richard Haydn",Robert Wise,0,0.14153450642304102,0.561303090045127
+Chicago,2002,86,"Renée Zellweger, Catherine Zeta-Jones, Richard Gere, Queen Latifah",Rob Marshall,23,0.10066576758206701,0.5546906764307641
+Platoon,1986,88,"Charlie Sheen, Willem Dafoe, Tom Berenger, Forest Whitaker",Oliver Stone,169,-0.05581573422719201,0.5315414624919831
+American Beauty,1999,87,"Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",Sam Mendes,31,0.067474761873346,0.526722774081265
+Mrs. Miniver,1942,92,"Greer Garson, Walter Pidgeon, Teresa Wright, Richard Ney",William Wyler,0,0.0,0.0
+Hamlet,1948,91,"Laurence Olivier, Jean Simmons, Eileen Herlie, Basil Sydney",Laurence Olivier,5,0.144269666461871,0.5559326926886711
+Rain Man,1988,90,"Dustin Hoffman, Tom Cruise, Valeria Golino, Gerald R. Molen",Barry Levinson,13,0.11275605385568901,0.508538093134083
+Wings,1927,93,"Clara Bow, Charles 'Buddy' Rogers, Richard Arlen, Gary Cooper",William Wellman,0,0.0,0.0
+The Last Emperor,1987,91,"John Lone, Joan Chen, Peter O'Toole, Ying Ruocheng",Bernardo Bertolucci,0,0.10435060525893801,0.44685377585377606
+How Green Was My Valley,1941,91,"Walter Pidgeon, Maureen O'Hara, Donald Crisp, Roddy McDowall",John Ford,0,0.11934650740206301,0.515001507898333
+Million Dollar Baby,2004,91,"Clint Eastwood, Hilary Swank, Morgan Freeman, Jay Baruchel",Clint Eastwood,4,0.11912932583985202,0.46927435381382704
+The Sting,1973,93,"Paul Newman, Robert Redford, Robert Shaw, Charles Durning",George Roy Hill,0,0.0,0.0
+From Here to Eternity,1953,92,"Burt Lancaster, Montgomery Clift, Deborah Kerr, Frank Sinatra",Fred Zinnemann,0,0.085576025561739,0.5047661782661781
+Midnight Cowboy,1969,91,"Dustin Hoffman, Jon Voight, John McGiver, Brenda Vaccaro",John Schlesinger,0,0.0,0.0
+You Can't Take It With You,1938,92,"Jean Arthur, Lionel Barrymore, James Stewart, Edward Arnold",Frank Capra,0,0.0,0.0
+Shakespeare in Love,1998,92,"Gwyneth Paltrow, Joseph Fiennes, Geoffrey Rush, Colin Firth",John Madden (II),0,0.0,0.0
+My Fair Lady,1964,95,"Rex Harrison, Audrey Hepburn, Stanley Holloway, Wilfrid Hyde-White",George Cukor,0,0.092831574555712,0.508190940106349
+The Departed,2006,91,"Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg",Martin Scorsese,259,-0.049483136470663006,0.5576667355300781
+Amadeus,1984,93,"Tom Hulce, F. Murray Abraham, Elizabeth Berridge, Simon Callow",Milos Forman,4,0.13512168387168402,0.543546266233766
+Rocky,1976,94,"Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers",John G. Avildsen,19,0.10969987569847901,0.515972496621937
+West Side Story,1961,93,"Natalie Wood, Richard Beymer, Rita Moreno, George Chakiris",Robert Wise,0,0.120314223504522,0.575523623971384
+The Lord of the Rings: The Return of the King,2003,93,"Elijah Wood, Sean Astin, Ian McKellen, Andy Serkis",Peter Jackson,0,0.082079685943322,0.503932081432081
+The Deer Hunter,1978,94,"Robert De Niro, Christopher Walken, John Cazale, John Savage",Michael Cimino,54,0.10262626202036601,0.552351673678092
+In the Heat of the Night,1967,96,"Rod Steiger, Sidney Poitier, Warren Oates, Lee Grant",Norman Jewison,4,0.043457488647844,0.487656531990288
+Patton,1970,96,"George C. Scott, Karl Malden, Michael Bates, Edward Binns",Franklin J. Schaffner,19,0.087643448010794,0.45901004551004504
+Titanic,1997,89,"Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates",James Cameron,0,0.0,0.0
+Slumdog Millionaire,2008,91,"Dev Patel, Freida Pinto, Madhur Mittal, Anil Kapoor",Danny Boyle,8,0.12439254056600901,0.46481313376721506
+One Flew Over the Cuckoo's Nest,1975,94,"Jack Nicholson, Louise Fletcher, William Redfield, Will Sampson",Milos Forman,59,0.07146140029419501,0.5161520524888861
+Mutiny on the Bounty,1935,94,"Charles Laughton, Clark Gable, Franchot Tone, Herbert Mundin",Frank Lloyd,0,0.0,0.0
+All the King's Men,1949,97,"Broderick Crawford, Mercedes McCambridge, John Derek, Joanne Dru",Robert Rossen,8,0.10515181846577101,0.49189256529596403
+Sunrise: A Song of Two Humans,1927,98,"Janet Gaynor, George O'Brien, Margaret Livingston, Bodil Rosing",F.W. Murnau,0,0.0,0.0
+No Country for Old Men,2007,93,"Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",Joel Coen,0,0.0,0.0
+The Apartment,1960,94,"Jack Lemmon, Shirley MacLaine, Fred MacMurray, Ray Walston",Billy Wilder,1,0.092832892207121,0.545478016640161
+The Bridge on the River Kwai,1957,95,"William Holden, Alec Guinness, Sessue Hayakawa, Jack Hawkins",David Lean,0,0.10900066729782901,0.5190095755663361
+The Silence of the Lambs,1991,96,"Jodie Foster, Anthony Hopkins, Scott Glenn, Ted Levine",Jonathan Demme,14,0.10735628147362801,0.49311084607002903
+Unforgiven,1992,96,"Clint Eastwood, Gene Hackman, Morgan Freeman, Richard Harris",Clint Eastwood,24,0.012151132302734001,0.48363301839274303
+The Best Years of Our Lives,1946,96,"Fredric March, Dana Andrews, Harold Russell, Myrna Loy",William Wyler,0,0.0,0.0
+Gone With the Wind,1939,90,"Clark Gable, Vivien Leigh, Leslie Howard, Olivia de Havilland",Victor Fleming,0,0.0,0.0
+The King's Speech,2010,95,"Colin Firth, Helena Bonham Carter, Geoffrey Rush, Derek Jacobi",Tom Hooper,25,0.059250432955202006,0.559793179225745
+The French Connection,1971,98,"Gene Hackman, Fernando Rey, Roy Scheider, Marcel Bozzuffi",William Friedkin,20,0.123233079090221,0.495594069951212
+Marty,1955,100,"Ernest Borgnine, Betsy Blair, Joe Mantell, Esther Minciotti",Delbert Mann,0,0.066514371950288,0.505787618574503
+Annie Hall,1977,97,"Woody Allen, Diane Keaton, Tony Roberts, Paul Simon",Woody Allen,0,0.0,0.0
+The Artist,2011,95,"Jean Dujardin, Bérénice Bejo, John Goodman, James Cromwell",Michel Hazanavicius,0,-0.004868398268398,0.497625541125541
+Schindler's List,1993,97,"Liam Neeson, Ben Kingsley, Ralph Fiennes, Caroline Goodall",Steven Spielberg,10,0.140192503322863,0.500989860625366
+Birdman,2014,91,"Michael Keaton, Edward Norton, Zach Galifianakis, Emma Stone",Alejandro González Iñárritu,93,0.042897431134371,0.573865197820422
+The Lost Weekend,1945,100,"Ray Milland, Jane Wyman, Howard Da Silva, Philip Terry",Billy Wilder,0,0.0,0.0
+An American in Paris,1951,95,"Gene Kelly, Leslie Caron, Maurice Chevalier, Oscar Levant",Vincente Minnelli,0,0.0,0.0
+On the Waterfront,1954,98,"Marlon Brando, Eva Marie Saint, Karl Malden, Lee J. Cobb",Elia Kazan,0,0.0,0.0
+"The Godfather, Part II",1974,97,"Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton",Francis Ford Coppola,0,0.0,0.0
+The Hurt Locker,2009,97,"Jeremy Renner, Anthony Mackie, Brian Geraghty, Guy Pearce",Kathryn Bigelow,60,0.060884574362835,0.5268923955929881
+All Quiet on the Western Front,1930,100,"Lew Ayres, Louis Wolheim, George ""Slim"" Summerville, Ben Alexander",Lewis Milestone,0,0.0,0.0
+Lawrence of Arabia,1962,98,"Peter O'Toole, Alec Guinness, Omar Sharif, Anthony Quinn",David Lean,0,0.09168493292134601,0.49339573922454305
+Rebecca,1940,100,"Laurence Olivier, Joan Fontaine, Judith Anderson, George Sanders",Alfred Hitchcock,0,0.07966182378125701,0.5537465357404621
+12 Years a Slave,2013,95,"Chiwetel Ejiofor, Michael Fassbender, Benedict Cumberbatch, Paul Giamatti",Steve McQueen (III),35,0.104785949344773,0.527275163190938
+Argo,2012,96,"Ben Affleck, Alan Arkin, John Goodman, Bryan Cranston",Ben Affleck,28,0.066053027296777,0.47378828763828706
+The Godfather,1972,98,"Marlon Brando, Al Pacino, James Caan, Robert Duvall",Francis Ford Coppola,7,0.10315081406114,0.528898768803659
+The Shape of Water,2017,92,"Sally Hawkins, Michael Shannon, Richard Jenkins, Doug Jones",Guillermo del Toro,12,0.09937317516538201,0.500082232341972
+Spotlight,2015,97,"Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",Tom McCarthy,22,0.112620214201383,0.46704738010906804
+All About Eve,1950,100,"Bette Davis, Anne Baxter, Gary Merrill, George Sanders",Joseph L. Mankiewicz,0,0.0,0.0
+It Happened One Night,1934,98,"Claudette Colbert, Clark Gable, Walter Connolly, Jason Thomas",Frank Capra,2,0.084323527193756,0.512694865778835
+Casablanca,1942,98,"Humphrey Bogart, Ingrid Bergman, Claude Rains, Paul Henreid",Michael Curtiz,0,0.10742465977585001,0.518178126620586
+Moonlight,2016,98,"Naomie Harris, André Holland, Mahershala Ali, Janelle Monáe",Barry Jenkins (III),97,0.049116887263439005,0.529248768472906
+The Broadway Melody,1929,35,"Anita Page, Bessie Love, Charles King, Jed Prouty",Harry Beaumont,0,0.0,0.0
+The Greatest Show on Earth,1952,45,"Betty Hutton, Cornel Wilde, Charlton Heston, James Stewart",Cecil B. DeMille,0,0.0,0.0
+Cimarron,1931,55,"Richard Dix, Irene Dunne, Estelle Taylor, Nance O'Neil",Wesley Ruggles,0,0.0,0.0
+Cavalcade,1933,58,"Diana Wynyard, Clive Brook, Ursula Jeans, Herbert Mundin",Frank Lloyd,0,0.0,0.0
+Out of Africa,1985,60,"Meryl Streep, Robert Redford, Klaus Maria Brandauer, Michael Kitchen",Sydney Pollack,0,0.096972460858119,0.505652175128919
+The Great Ziegfeld,1936,62,"William Powell, Luise Rainer, Myrna Loy, Frank Morgan",Robert Z. Leonard,0,0.0,0.0
+Around the World in 80 Days,1956,71,"David Niven, Cantinflas, Shirley MacLaine, Robert Newton",Michael Anderson,0,0.139403202729473,0.5284579374250981
+Forrest Gump,1994,72,"Tom Hanks, Robin Wright, Gary Sinise, Mykelti Williamson",Robert Zemeckis,18,0.120823822147351,0.5205374418609711
+Crash,2004,74,"Sandra Bullock, Don Cheadle, Matt Dillon, Jennifer Esposito",Paul Haggis,84,0.024460412845158003,0.5108055641157341
+A Beautiful Mind,2001,74,"Russell Crowe, Jennifer Connelly, Ed Harris, Christopher Plummer",Ron Howard,2,0.10357754045770501,0.51638633233158
+Braveheart,1995,77,"Mel Gibson, Sophie Marceau, Patrick McGoohan, Catherine McCormack",Mel Gibson,6,0.10415288754738201,0.49062571984590303
+Gladiator,2000,76,"Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed",Ridley Scott,2,0.162354884031566,0.523298929969603
+Going My Way,1944,80,"Bing Crosby, Barry Fitzgerald, Rise Stevens, Jean Heather",Leo McCarey,0,0.0,0.0
+Gigi,1958,79,"Leslie Caron, Louis Jourdan, Maurice Chevalier, Hermione Gingold",Vincente Minnelli,0,0.0,0.0
+Gentleman's Agreement,1947,78,"Gregory Peck, Dorothy McGuire, John Garfield, Celeste Holm",Elia Kazan,0,0.0,0.0
+The Life of Emile Zola,1937,78,"Paul Muni, Joseph Schildkraut, Gale Sondergaard, Gloria Holden",Irving Rapper,0,0.0,0.0
+Oliver!,1968,82,"Ron Moody, Oliver Reed, Mark Lester, Shani Wallis",Carol Reed,0,0.0,0.0
+Driving Miss Daisy,1989,81,"Jessica Tandy, Morgan Freeman, Dan Aykroyd, Patti LuPone",Bruce Beresford,1,0.12345404253655401,0.5351610684061421
+A Man for All Seasons,1966,82,"Paul Scofield, Wendy Hiller, Leo McKern, Robert Shaw",Fred Zinnemann,2,0.10932654466745301,0.555817156602729
+Dances With Wolves,1990,82,"Kevin Costner, Mary McDonnell, Graham Greene (II), Rodney A. Grant",Kevin Costner,0,0.0,0.0
+Terms of Endearment,1983,84,"Shirley MacLaine, Debra Winger, Jack Nicholson, Jeff Daniels",James L. Brooks,5,0.104162174296962,0.553164150782892
+Tom Jones,1963,85,"Albert Finney, Susannah York, Hugh Griffith, Edith Evans",Tony Richardson,10,0.14432824002375702,0.5603982793781861
+Gandhi,1982,84,"Ben Kingsley, Candice Bergen, Trevor Howard, John Mills",Richard Attenborough,0,0.0,0.0
+Chariots of Fire,1981,84,"Ben Cross, Ian Charleson, Nigel Havers, Ian Holm",Hugh Hudson,0,0.136163539664576,0.507709175333656
+The English Patient,1996,85,"Ralph Fiennes, Juliette Binoche, Willem Dafoe, Kristin Scott Thomas",Anthony Minghella,7,0.067072147577765,0.501034187930255
+Ben-Hur,1959,86,"Charlton Heston, Jack Hawkins, Stephen Boyd, Haya Harareet",William Wyler,1,0.08312623548516901,0.48293066129273005
+Grand Hotel,1932,86,"Greta Garbo, John Barrymore, Joan Crawford, Wallace Beery",Edmund Goulding,0,0.114604099538403,0.565999278499277
+Green Book,2018,78,"Viggo Mortensen, Mahershala Ali, Linda Cardellini, Don Stark",Peter Farrelly,17,0.146575014418616,0.5067687723019471
+Kramer vs. Kramer,1979,89,"Dustin Hoffman, Meryl Streep, Justin Henry, Jane Alexander",Robert Benton,4,0.09504038916410001,0.510961059272914
+Ordinary People,1980,89,"Mary Tyler Moore, Timothy Hutton, Donald Sutherland, Judd Hirsch",Robert Redford,0,0.0,0.0
+The Sound of Music,1965,84,"Julie Andrews, Christopher Plummer, Eleanor Parker, Richard Haydn",Robert Wise,0,0.14153450642304102,0.561303090045127
+Chicago,2002,86,"Renée Zellweger, Catherine Zeta-Jones, Richard Gere, Queen Latifah",Rob Marshall,23,0.10066576758206701,0.5546906764307641
+Platoon,1986,88,"Charlie Sheen, Willem Dafoe, Tom Berenger, Forest Whitaker",Oliver Stone,169,-0.05581573422719201,0.5315414624919831
+American Beauty,1999,87,"Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",Sam Mendes,31,0.067474761873346,0.526722774081265
+Mrs. Miniver,1942,92,"Greer Garson, Walter Pidgeon, Teresa Wright, Richard Ney",William Wyler,0,0.0,0.0
+Hamlet,1948,91,"Laurence Olivier, Jean Simmons, Eileen Herlie, Basil Sydney",Laurence Olivier,5,0.144269666461871,0.5559326926886711
+Rain Man,1988,90,"Dustin Hoffman, Tom Cruise, Valeria Golino, Gerald R. Molen",Barry Levinson,13,0.11275605385568901,0.508538093134083
+Wings,1927,93,"Clara Bow, Charles 'Buddy' Rogers, Richard Arlen, Gary Cooper",William Wellman,0,0.0,0.0
+The Last Emperor,1987,91,"John Lone, Joan Chen, Peter O'Toole, Ying Ruocheng",Bernardo Bertolucci,0,0.10435060525893801,0.44685377585377606
+How Green Was My Valley,1941,91,"Walter Pidgeon, Maureen O'Hara, Donald Crisp, Roddy McDowall",John Ford,0,0.11934650740206301,0.515001507898333
+Million Dollar Baby,2004,91,"Clint Eastwood, Hilary Swank, Morgan Freeman, Jay Baruchel",Clint Eastwood,4,0.11912932583985202,0.46927435381382704
+The Sting,1973,93,"Paul Newman, Robert Redford, Robert Shaw, Charles Durning",George Roy Hill,0,0.0,0.0
+From Here to Eternity,1953,92,"Burt Lancaster, Montgomery Clift, Deborah Kerr, Frank Sinatra",Fred Zinnemann,0,0.085576025561739,0.5047661782661781
+Midnight Cowboy,1969,91,"Dustin Hoffman, Jon Voight, John McGiver, Brenda Vaccaro",John Schlesinger,0,0.0,0.0
+You Can't Take It With You,1938,92,"Jean Arthur, Lionel Barrymore, James Stewart, Edward Arnold",Frank Capra,0,0.0,0.0
+Shakespeare in Love,1998,92,"Gwyneth Paltrow, Joseph Fiennes, Geoffrey Rush, Colin Firth",John Madden (II),0,0.0,0.0
+My Fair Lady,1964,95,"Rex Harrison, Audrey Hepburn, Stanley Holloway, Wilfrid Hyde-White",George Cukor,0,0.092831574555712,0.508190940106349
+The Departed,2006,91,"Leonardo DiCaprio, Matt Damon, Jack Nicholson, Mark Wahlberg",Martin Scorsese,259,-0.049483136470663006,0.5576667355300781
+Amadeus,1984,93,"Tom Hulce, F. Murray Abraham, Elizabeth Berridge, Simon Callow",Milos Forman,4,0.13512168387168402,0.543546266233766
+Rocky,1976,94,"Sylvester Stallone, Talia Shire, Burt Young, Carl Weathers",John G. Avildsen,19,0.10969987569847901,0.515972496621937
+West Side Story,1961,93,"Natalie Wood, Richard Beymer, Rita Moreno, George Chakiris",Robert Wise,0,0.120314223504522,0.575523623971384
+The Lord of the Rings: The Return of the King,2003,93,"Elijah Wood, Sean Astin, Ian McKellen, Andy Serkis",Peter Jackson,0,0.082079685943322,0.503932081432081
+The Deer Hunter,1978,94,"Robert De Niro, Christopher Walken, John Cazale, John Savage",Michael Cimino,54,0.10262626202036601,0.552351673678092
+In the Heat of the Night,1967,96,"Rod Steiger, Sidney Poitier, Warren Oates, Lee Grant",Norman Jewison,4,0.043457488647844,0.487656531990288
+Patton,1970,96,"George C. Scott, Karl Malden, Michael Bates, Edward Binns",Franklin J. Schaffner,19,0.087643448010794,0.45901004551004504
+Titanic,1997,89,"Leonardo DiCaprio, Kate Winslet, Billy Zane, Kathy Bates",James Cameron,0,0.0,0.0
+Slumdog Millionaire,2008,91,"Dev Patel, Freida Pinto, Madhur Mittal, Anil Kapoor",Danny Boyle,8,0.12439254056600901,0.46481313376721506
+One Flew Over the Cuckoo's Nest,1975,94,"Jack Nicholson, Louise Fletcher, William Redfield, Will Sampson",Milos Forman,59,0.07146140029419501,0.5161520524888861
+Mutiny on the Bounty,1935,94,"Charles Laughton, Clark Gable, Franchot Tone, Herbert Mundin",Frank Lloyd,0,0.0,0.0
+All the King's Men,1949,97,"Broderick Crawford, Mercedes McCambridge, John Derek, Joanne Dru",Robert Rossen,8,0.10515181846577101,0.49189256529596403
+Sunrise: A Song of Two Humans,1927,98,"Janet Gaynor, George O'Brien, Margaret Livingston, Bodil Rosing",F.W. Murnau,0,0.0,0.0
+No Country for Old Men,2007,93,"Tommy Lee Jones, Javier Bardem, Josh Brolin, Woody Harrelson",Joel Coen,0,0.0,0.0
+The Apartment,1960,94,"Jack Lemmon, Shirley MacLaine, Fred MacMurray, Ray Walston",Billy Wilder,1,0.092832892207121,0.545478016640161
+The Bridge on the River Kwai,1957,95,"William Holden, Alec Guinness, Sessue Hayakawa, Jack Hawkins",David Lean,0,0.10900066729782901,0.5190095755663361
+The Silence of the Lambs,1991,96,"Jodie Foster, Anthony Hopkins, Scott Glenn, Ted Levine",Jonathan Demme,14,0.10735628147362801,0.49311084607002903
+Unforgiven,1992,96,"Clint Eastwood, Gene Hackman, Morgan Freeman, Richard Harris",Clint Eastwood,24,0.012151132302734001,0.48363301839274303
+The Best Years of Our Lives,1946,96,"Fredric March, Dana Andrews, Harold Russell, Myrna Loy",William Wyler,0,0.0,0.0
+Gone With the Wind,1939,90,"Clark Gable, Vivien Leigh, Leslie Howard, Olivia de Havilland",Victor Fleming,0,0.0,0.0
+The King's Speech,2010,95,"Colin Firth, Helena Bonham Carter, Geoffrey Rush, Derek Jacobi",Tom Hooper,25,0.059250432955202006,0.559793179225745
+The French Connection,1971,98,"Gene Hackman, Fernando Rey, Roy Scheider, Marcel Bozzuffi",William Friedkin,20,0.123233079090221,0.495594069951212
+Marty,1955,100,"Ernest Borgnine, Betsy Blair, Joe Mantell, Esther Minciotti",Delbert Mann,0,0.066514371950288,0.505787618574503
+Annie Hall,1977,97,"Woody Allen, Diane Keaton, Tony Roberts, Paul Simon",Woody Allen,0,0.0,0.0
+The Artist,2011,95,"Jean Dujardin, Bérénice Bejo, John Goodman, James Cromwell",Michel Hazanavicius,0,-0.004868398268398,0.497625541125541
+Schindler's List,1993,97,"Liam Neeson, Ben Kingsley, Ralph Fiennes, Caroline Goodall",Steven Spielberg,10,0.140192503322863,0.500989860625366
+Birdman,2014,91,"Michael Keaton, Edward Norton, Zach Galifianakis, Emma Stone",Alejandro González Iñárritu,93,0.042897431134371,0.573865197820422
+The Lost Weekend,1945,100,"Ray Milland, Jane Wyman, Howard Da Silva, Philip Terry",Billy Wilder,0,0.0,0.0
+An American in Paris,1951,95,"Gene Kelly, Leslie Caron, Maurice Chevalier, Oscar Levant",Vincente Minnelli,0,0.0,0.0
+On the Waterfront,1954,98,"Marlon Brando, Eva Marie Saint, Karl Malden, Lee J. Cobb",Elia Kazan,0,0.0,0.0
+"The Godfather, Part II",1974,97,"Al Pacino, Robert De Niro, Robert Duvall, Diane Keaton",Francis Ford Coppola,0,0.0,0.0
+The Hurt Locker,2009,97,"Jeremy Renner, Anthony Mackie, Brian Geraghty, Guy Pearce",Kathryn Bigelow,60,0.060884574362835,0.5268923955929881
+All Quiet on the Western Front,1930,100,"Lew Ayres, Louis Wolheim, George ""Slim"" Summerville, Ben Alexander",Lewis Milestone,0,0.0,0.0
+Lawrence of Arabia,1962,98,"Peter O'Toole, Alec Guinness, Omar Sharif, Anthony Quinn",David Lean,0,0.09168493292134601,0.49339573922454305
+Rebecca,1940,100,"Laurence Olivier, Joan Fontaine, Judith Anderson, George Sanders",Alfred Hitchcock,0,0.07966182378125701,0.5537465357404621
+12 Years a Slave,2013,95,"Chiwetel Ejiofor, Michael Fassbender, Benedict Cumberbatch, Paul Giamatti",Steve McQueen (III),35,0.104785949344773,0.527275163190938
+Argo,2012,96,"Ben Affleck, Alan Arkin, John Goodman, Bryan Cranston",Ben Affleck,28,0.066053027296777,0.47378828763828706
+The Godfather,1972,98,"Marlon Brando, Al Pacino, James Caan, Robert Duvall",Francis Ford Coppola,7,0.10315081406114,0.528898768803659
+The Shape of Water,2017,92,"Sally Hawkins, Michael Shannon, Richard Jenkins, Doug Jones",Guillermo del Toro,12,0.09937317516538201,0.500082232341972
+Spotlight,2015,97,"Mark Ruffalo, Michael Keaton, Rachel McAdams, Liev Schreiber",Tom McCarthy,22,0.112620214201383,0.46704738010906804
+All About Eve,1950,100,"Bette Davis, Anne Baxter, Gary Merrill, George Sanders",Joseph L. Mankiewicz,0,0.0,0.0
+It Happened One Night,1934,98,"Claudette Colbert, Clark Gable, Walter Connolly, Jason Thomas",Frank Capra,2,0.084323527193756,0.512694865778835
+Casablanca,1942,98,"Humphrey Bogart, Ingrid Bergman, Claude Rains, Paul Henreid",Michael Curtiz,0,0.10742465977585001,0.518178126620586
+Moonlight,2016,98,"Naomie Harris, André Holland, Mahershala Ali, Janelle Monáe",Barry Jenkins (III),97,0.049116887263439005,0.529248768472906
