@@ -1,10 +1,15 @@
 <a href='#content' class='skip-to-main'>Skip to main content</a>
 
 <header class='{{#ifEquals this 'sticky'}}is-sticky{{/ifEquals}}{{#ifEquals this 'sticky-dark'}}is-sticky is-dark{{/ifEquals}}'>
-	<a href='https://pudding.cool' target='_blank' class='logo'>
-		<img inline src='pudding/wordmark.svg'>
+	<a href='http://michalkollar.com' target='_self'>
+		<h2><img inline src='assets/images/scatterspot-logo.svg'/>michalkollar</h2>
 	</a>
-	 {{#ifEquals this 'sticky'}} {{> base/sticky }} {{/ifEquals}}
-	 {{#ifEquals this 'sticky-dark'}} {{> base/sticky }} {{/ifEquals}}
+
+	{{!-- <a href='https://pudding.cool' target='_blank' class='logo'>
+		@@include('logo.svg')
+	</a> --}}
+
+	 {{!-- {{#ifEquals this 'sticky'}} {{> base/sticky }} {{/ifEquals}} --}}
+	 {{!-- {{#ifEquals this 'sticky-dark'}} {{> base/sticky }} {{/ifEquals}} --}}
 </header>
 

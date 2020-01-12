@@ -7,28 +7,43 @@ header
 	background-color $white
 	font-family $sans
 
+	a
+		border-bottom 0px white
+
+	img
+		display inline
+		max-width 1rem
+		margin 0 10px
+		vertical-align:middle
+
+	h2
+		margin 1rem
+		font-family  $montserrat
+		font-weight 400
+		color $gray-dark
+
 	a.logo
-		display block
+		display inline
 		border none
-		max-width 9rem
-		margin 1rem auto
+		max-width 2rem
+		margin 1rem
 
 		svg
 			fill $off-black
 			display block
 			width 100%
-	
+
 header.is-sticky
 	position fixed
 	transform translate3d(0,0,0)
 	background-color $white
-	box-shadow 0 0 7px 1px $gray-light
+	box-shadow 0 0 0.5px 0.5px $gray-light
 	height 3rem
 	display flex
 	align-items center
 	
 	a.logo
-		margin 0 auto
+		margin 1rem
 	
 	.header__toggle
 		position fixed

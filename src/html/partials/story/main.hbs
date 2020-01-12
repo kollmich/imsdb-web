@@ -1,0 +1,30 @@
+<p class='section__hed'>{{copy.mainHed}}</p>
+
+<div id='perspective-scroll'>
+    <div id='vis' class='scroll__graphic'>
+        <div class='graphic__chart'>
+            <svg>
+                <g class='g-axis'>
+                    <g class='axis axis--x'></g>
+                    <g class='axis axis--y'></g>
+                </g>
+                <g class='g-vis'>
+                    <g class='emissions'></g>
+                </g>
+            </svg>
+        </div>
+
+    </div>  
+    <div id='sections' class='scroll__text'>
+        {{#each copy.perspectiveSteps}}
+            <div class='step' data-step='{{step}}'>
+                {{#if text}}
+                    <p>{{text}}</p>
+                {{else}}
+                    </br>    
+                {{/if}}    
+            </div>
+
+        {{/each}}
+    </div>  
+</div>
