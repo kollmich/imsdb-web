@@ -39,21 +39,9 @@ function init() {
   // setup sticky header menu
   setupStickyHeader();
   // kick off graphic code
-  //graphic.init();
+  graphic.init();
   // load footer stories
   //footer.init();
 }
-
-  // kick off graphic code
-  d3.loadData('assets/data/data_sentiment.csv', (err, response) => {
-    const emissionsData = cleanData.cleanData(response[0]);
-    graphic.init(emissionsData);
-		// graphicChange.init(peopleData);
-		// graphicCare.init(peopleData);
-		// graphicImpact.init(peopleData);
-		// filter({ name: 'Industry', data: peopleData });
-		// filter({ name: 'Cause', data: peopleData });
-		// preloadImages(peopleData);
-  });
 
 init();

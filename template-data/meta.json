@@ -1,11 +1,15 @@
 {
-	"url": "https://michalkollar.com",
-	"keywords":
-		"movies, sentiment, vulgarities, data, analysis, visualization",
-	"title":
-		"Oscar Winning Sentiments",
+	"url": "https://trendspotting.site",
+	"keywords": "movies, vulgarities, data, analysis, d3, chart, oscars",
+	"title": "The Oscar Winning Vocabulary",
+	"siteName": "trendspotting.site",	
+	"site": "https://trendspotting.site/2020/April/movies/index.html",
+	"description": "The Oscar Winning Vocabulary",
+	"imgFacebook": "https://trendspotting.site/2020/April/movies/assets/social/movies-social.png",
+	"imgTwitter": "https://trendspotting.site/2020/April/movies/assets/social/movies-social.png",
 	"author": {
-		"name": "Michal Kollar",
-		"url": "https://michalkollar.com"
+		"name": "trendspotting.site",
+		"url": "https://trendspotting.site",
+		"twitterHandle": "trendspotting.site"
 	}
 }
