@@ -58,15 +58,26 @@
         font-family $sans
         fill $gray-dark
 
-
-    .old
-        fill $red
-
-    .emission rect
+    .movie rect
         position relative
         stroke $red
         fill $red
         opacity 1
+
+    .movie text
+        fill $gray-dark
+        opacity 1
+        font-family $sans
+        font-size 8px
+        font-weight 400
+        alignment-baseline baseline
+        margin 0
+        line-height 0     
+        +mq('bp-4')
+            font-size 9px
+            font-weight 600
+        +mq('bp-6')
+            font-size 11.5px
 
     button
         font-size 10px

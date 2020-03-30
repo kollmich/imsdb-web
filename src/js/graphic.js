@@ -2,8 +2,8 @@ import cleanData from './clean-data';
 import loadData from './load-data';
 
 const MARGIN = {
-  top: 100,
-  bottom: 220,
+  top: 120,
+  bottom: 50,
   left: 30,
   right: 20
 }
@@ -25,8 +25,7 @@ const $chart = $graphic.select('.graphic__chart');
 const $svg = $chart.select('svg');
 const $gVis = $svg.select('.g-vis');
 const $gAxis = $svg.select('.g-axis');
-
-
+const formatYear = d3.timeFormat("%Y");
 
 function getScaleX(data) {
   return d3
@@ -42,10 +41,9 @@ function getScaleX(data) {
 function getScaleY(data) {
   return d3
     .scaleLinear()
-    .domain([0, d3.max(data, d => d.vulgarities)])
+    .domain([0, d3.max(data, d => d.vulgarities)*1.25])
     .range([height,0])
     .nice();
-
 }
 
 function wrap(text, width) {
@@ -95,18 +93,19 @@ function drawFirst() {
       .tickPadding(FONT_SIZE / 2)
       .tickSize(0);
   
-    $gAxis.select('.axis--x')
-      .call(axisX)
-      .at({
-        transform: `translate(${MARGIN.left},${height + MARGIN.top})`
-      })
-      .selectAll(".tick text")
-      // .call(wrap, scaleX.bandwidth())
-      .attr("y", -5)
-      .attr("x", -10)
-      // .attr("dy", ".2em")
-      .attr("transform", "rotate(-90)")
-      .style("text-anchor", "end");
+    // $gAxis.select('.axis--x')
+    //   .call(axisX)
+    //   .at({
+    //     transform: `translate(${MARGIN.left},${height + MARGIN.top})`
+    //   })
+    //   .selectAll(".tick text")
+    //   // .call(wrap, scaleX.bandwidth())
+    //   .attr("y", -4)
+    //   // .attr("x", scaleY(d.vulgarities))
+    //   .attr("x", height+20)
+    //   // .attr("dy", ".2em")
+    //   .attr("transform", "rotate(-90)")
+    //   .style("text-anchor", "end");
 
 
     //TITLE
@@ -118,7 +117,7 @@ function drawFirst() {
       // .text('the enviromental guilt of having kids')
       .at({
         'class': 'heading',
-        'transform': `translate(${0},${MARGIN.top/4})`
+        'transform': `translate(${0},${30})`
     });
 
     //SUBTITLE
@@ -129,15 +128,8 @@ function drawFirst() {
       .text('Count of bad words used in movies.')
       .at({
         'class': 'subheading',
-        'transform': `translate(${0},${MARGIN.top/1.8})`
+        'transform': `translate(${0},${60})`
       })
-
-    // $svg.append('text')
-    // .text('(tonnes CO₂ per year)')
-    // .at({
-    //   'class': 'subheading',
-    //   'transform': `translate(${0},${MARGIN.top/1.35})`
-    // })
 
     //DATA
     $svg.selectAll('text.source')
@@ -164,16 +156,16 @@ function drawFirst() {
     });
 
     //VIZ
-    //define .emission objects carrying datapoints
-    const $emission= $gVis
-      .select('.emissions')
-      .selectAll('.emission')
+    //define .movie objects carrying datapoints
+    const $movie= $gVis
+      .select('.movies')
+      .selectAll('.movie')
       .data(data);
 
-    const $emissionEnter = $emission.enter().append('g.emission');
+    const $movieEnter = $movie.enter().append('g.movie');
 
     // //update paths/circles/rects with .merge  
-    const $emissionMerge = $emissionEnter.merge($emission);
+    const $movieMerge = $movieEnter.merge($movie);
 
     const $tooltip = d3.select("body").append("div.tooltip")
       .st({
@@ -182,7 +174,7 @@ function drawFirst() {
         "visibility": "hidden",
         "padding": "5px",
         "background-color": "white",
-        "opacity": "0.8",
+        "opacity": "0.9",
         "border": "1px solid #ddd",
         "border-radius": "5%",
         "max-width": "200px"
@@ -191,19 +183,19 @@ function drawFirst() {
         "text-align": "center",
       });
 
-    $emissionEnter
+    $movieEnter
       .append('rect')
       .on("mouseover", function(){
         $gVis.select('.callout')
           .selectAll('*')
           .remove();
-        return $tooltip.style("visibility", "visible").text(this.__data__['vulgarities'] + ' vulgarities')
+        return $tooltip.style("visibility", "visible").text(this.__data__['vulgarities'] + ' bad words')
       })
       .on("mousemove", function(){return $tooltip.style("top", (event.pageY+15)+"px").style("left",(event.pageX+15)+"px");})
       .on("mouseout", function(){return $tooltip.style("visibility", "hidden");});
 
-    $emissionMerge
-      .selectAll('.emission rect')
+    $movieMerge
+      .selectAll('.movie rect')
       .at({
         width: scaleX.bandwidth(),
         y: function (d) {
@@ -215,6 +207,26 @@ function drawFirst() {
         height: function (d) {
           return height - scaleY(d.vulgarities);
         },
+      });
+
+
+    $movieEnter
+      .append('text');
+
+    $movieMerge
+      .selectAll('.movie text')
+      .at({
+        y: function (d) {
+          return scaleX(d.title)+width*0.0125;
+        },
+        x: function (d) {
+          return scaleY(-d.vulgarities) - height*2 + 5;
+        },
+        transform: "rotate(-90)",
+        // dy: 1
+      })
+      .text( function (d) {
+        return `${d.title}, ${formatYear(d.year)}`;
       });
 }
 
@@ -331,7 +343,7 @@ function svgString2Image( svgString, width, height, format, callback ) {
 function updateDimensions() {
   const h = window.innerHeight;
   width = $chart.node().offsetWidth - MARGIN.left - MARGIN.right;
-  height = Math.floor(h * 0.85) - MARGIN.top - MARGIN.bottom;
+  height = Math.floor(h * 0.7) - MARGIN.top - MARGIN.bottom;
 }
 
 function resize() {
