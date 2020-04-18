@@ -2,7 +2,7 @@ import cleanData from './clean-data';
 import loadData from './load-data';
 
 const MARGIN = {
-  top: 120,
+  top: 100,
   bottom: 50,
   left: 30,
   right: 20
@@ -21,6 +21,7 @@ const $graphic = $section.select('.scroll__graphic');
 const $text = $section.select('.scroll__text');
 const $step = $text.selectAll('.step');
 
+const $app = $graphic.selectAll('.dash-app');
 const $chart = $graphic.select('.graphic__chart');
 const $svg = $chart.select('svg');
 const $gVis = $svg.select('.g-vis');
@@ -113,7 +114,7 @@ function drawFirst() {
       .remove();
 
     $svg.append('text')
-      .text('● THE OSCAR WINNING VOCABULARY')
+      .text('● OSCAR WINNERS')
       // .text('the enviromental guilt of having kids')
       .at({
         'class': 'heading',
@@ -125,7 +126,7 @@ function drawFirst() {
       .remove();
 
     $svg.append('text')
-      .text('Count of bad words used in movies.')
+      .text('Count of bad words used in movies that won the academy award.')
       .at({
         'class': 'subheading',
         'transform': `translate(${0},${60})`
@@ -230,116 +231,6 @@ function drawFirst() {
       });
 }
 
-// Set-up the export button
-d3.select('#saveButton').on('click', function(){
-  const svgString = getSVGString($svg.node());
-  console.log(svgString);
-	svgString2Image( svgString, 5*width, 5*height, 'png', save ); // passes Blob and filesize String to the callback
-
-	function save( dataBlob, filesize ){
-		saveAs( dataBlob, 'D3 vis exported to PNG.png' ); // FileSaver.js function
-	}
-});
-
-
-// getSVGString ( svgNode ) and svgString2Image( svgString, width, height, format, callback )
-function getSVGString( svgNode ) {
-	svgNode.setAttribute('xlink', 'http://www.w3.org/1999/xlink');
-  const cssStyleText = getCSSStyles(svgNode);
-  console.log(svgNode);
-	appendCSS( cssStyleText, svgNode );
-
-	let serializer = new XMLSerializer();
-	let svgString = serializer.serializeToString(svgNode);
-	svgString = svgString.replace(/(\w+)?:?xlink=/g, 'xmlns:xlink='); // Fix root xlink without namespace
-	svgString = svgString.replace(/NS\d+:href/g, 'xlink:href'); // Safari NS namespace fix
-
-	return svgString;
-
-	function getCSSStyles( parentElement ) {
-		let selectorTextArr = [];
-
-		// Add Parent element Id and Classes to the list
-		selectorTextArr.push( '#'+parentElement.id );
-		for (let c = 0; c < parentElement.classList.length; c++)
-				if ( !contains('.'+parentElement.classList[c], selectorTextArr) )
-					selectorTextArr.push( '.'+parentElement.classList[c] );
-
-		// Add Children element Ids and Classes to the list
-		let nodes = parentElement.getElementsByTagName("*");
-		for (let i = 0; i < nodes.length; i++) {
-			let id = nodes[i].id;
-			if ( !contains('#'+id, selectorTextArr) )
-				selectorTextArr.push( '#'+id );
-
-			let classes = nodes[i].classList;
-			for (let c = 0; c < classes.length; c++)
-				if ( !contains('.'+classes[c], selectorTextArr) )
-					selectorTextArr.push( '.'+classes[c] );
-		}
-
-		// Extract CSS Rules
-		let extractedCSSText = "";
-		for (let i = 0; i < document.styleSheets.length; i++) {
-			let s = document.styleSheets[i];
-			
-			try {
-			    if(!s.cssRules) continue;
-			} catch( e ) {
-		    		if(e.name !== 'SecurityError') throw e; // for Firefox
-		    		continue;
-		    	}
-
-      let cssRules = s.cssRules;
-			for (let r = 0; r < cssRules.length; r++) {
-				if ( contains( cssRules[r].selectorText, selectorTextArr ) )
-					extractedCSSText += cssRules[r].cssText;
-			}
-		}
-		
-    return extractedCSSText;
-
-		function contains(str,arr) {
-			return arr.indexOf( str ) === -1 ? false : true;
-		}
-	}
-	function appendCSS( cssText, element ) {
-		let styleElement = document.createElement("style");
-		styleElement.setAttribute("type","text/css"); 
-		styleElement.innerHTML = cssText;
-		let refNode = element.hasChildNodes() ? element.children[0] : null;
-		element.insertBefore( styleElement, refNode );
-	}
-}
-
-
-function svgString2Image( svgString, width, height, format, callback ) {
-	format = format ? format : 'png';
-
-	const imgsrc = 'data:image/svg+xml;base64,'+ btoa( unescape( encodeURIComponent( svgString ) ) ); // Convert SVG string to data URL
-
-	const canvas = document.createElement("canvas");
-	const context = canvas.getContext("2d");
-
-	canvas.width = width;
-	canvas.height = height;
-
-	const image = new Image();
-	image.onload = function() {
-		context.clearRect ( 0, 0, width, height );
-		context.drawImage(image, 0, 0, width, height);
-
-		canvas.toBlob( function(blob) {
-			const filesize = Math.round( blob.length/1024 ) + ' KB';
-			if ( callback ) callback( blob, filesize );
-		});
-
-		
-	};
-
-	image.src = imgsrc;
-}
-
 function updateDimensions() {
   const h = window.innerHeight;
   width = $chart.node().offsetWidth - MARGIN.left - MARGIN.right;
@@ -349,6 +240,10 @@ function updateDimensions() {
 function resize() {
   updateDimensions();
   $svg.at({
+    width: width + MARGIN.left + MARGIN.right,
+    height: height + MARGIN.top + MARGIN.bottom
+  });
+  $app.at({
     width: width + MARGIN.left + MARGIN.right,
     height: height + MARGIN.top + MARGIN.bottom
   });
