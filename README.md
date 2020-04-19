@@ -1,15 +1,13 @@
 * [Description](#description)
 * [Data & Methodology](#data)
 
-# UNDER CONSTRUCTION
-
 # Description
 
-Essay on emissions produced by an individual during common activities. And how to the our habits to lower them.
+Data visualisation essay on swear words in movies, with analysis of bad words usage over time.
+The essay is published at:
+https://trendspotting.site/2020/April/movies/index.html
 
 
 # Data & Methodology
 
-Data were sourced from Wynes & Nicholas, Environmental Research Letters.
-
-Available at: https://iopscience.iop.org/article/10.1088/1748-9326/aa7541
+The list of analysed movies reflects the [boxofficemojo's]: https://www.boxofficemojo.com/chart/top_lifetime_gross_adjusted/?adjust_gross_to=2020  chart of top grossing movies adjusted for inflation. Each movie has been analysed through subtitles publicly available for download at https://www.yifysubtitles.com. The webscraping and data handling processes were performed in Python, with the visualisations being developed in d3.js and Dash libraries. The charts are updated on a quarterly basis with the back-end code available in a separate [repository]: https://github.com/kollmich/imsdb-data.
